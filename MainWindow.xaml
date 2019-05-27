@@ -1,0 +1,14 @@
+﻿<Window x:Class="_184863BinaryNumbers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_184863BinaryNumbers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label x:Name="lblOutput" Content="Output will print here"/>
+        <TextBox x:Name="txtInput" Text="Write your input here"/>
+        <Button x:Name="btnCalculate" Content="Click me to convert to binary" Click="BtnCalculate_Click"/>
+    </StackPanel>
+</Window>
